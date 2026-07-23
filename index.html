@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>DEViance — Intelligence Beyond the Edge</title>
-<meta name="description" content="A futuristic software house. Open prototypes, agent skills, structural truth for coding agents. No roadmap, no pitch — the repos are the pitch." />
-<meta property="og:title" content="DEViance — Intelligence Beyond the Edge" />
-<meta property="og:description" content="No roadmap, no pitch. The repos are the pitch." />
+<title>DEViance — public prototypes for coding agents</title>
+<meta name="description" content="Public prototypes for coding agents, compilers, and odd tools. Some ship, some die on the bench. Every repo says exactly where it stands." />
+<meta property="og:title" content="DEViance — public prototypes for coding agents" />
+<meta property="og:description" content="Some ship. Some die on the bench. The repo tells you which." />
 <meta property="og:image" content="https://deviance.dev/assets/deviance-trident-lockup.png" />
 <meta property="og:url" content="https://deviance.dev" />
 <meta name="theme-color" content="#0F0F11" />
@@ -68,7 +68,7 @@ body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:9000;
 .hero .lockup{width:min(560px,86vw);margin:0 0 6px -6px}
 .hero h1{font-family:'Press Start 2P';font-size:clamp(26px,6.3vw,60px);color:var(--bone);line-height:1.14;letter-spacing:-.01em;margin:8px 0 0}
 .hero h1 .edge{color:transparent;-webkit-text-stroke:1.4px var(--signal)}
-.hero .sub{margin-top:30px;max-width:52ch;color:var(--bone);font-size:15.5px;line-height:1.85}
+.hero .sub{margin-top:30px;max-width:54ch;color:var(--bone);font-size:15.5px;line-height:1.85}
 .hero .sub b{color:var(--gold);font-weight:500}
 .hero .chips{margin-top:34px;display:flex;gap:14px;flex-wrap:wrap}
 .chip{font-family:'Press Start 2P';font-size:11px;padding:14px 16px;background:var(--panel);border:1.5px solid var(--steeld);color:var(--bone);display:inline-flex;gap:10px;align-items:center}
@@ -177,10 +177,10 @@ body{padding-bottom:26px}
 <header class="hero" id="top">
   <div class="grid-bg"></div>
   <div class="wrap hero-in">
-    <div class="kick rv"><span class="bar"></span>DEViance Intelligence — futuristic software house · EST 2016</div>
+    <div class="kick rv"><span class="bar"></span>DEViance Intelligence — a public prototype lab · EST 2016</div>
     <img class="lockup rv" src="assets/deviance-trident-lockup.png" alt="DEViance — intelligence beyond the edge" />
     <h1 class="rv">INTELLIGENCE<br>BEYOND<br><span class="edge">THE EDGE</span></h1>
-    <p class="sub rv">We prototype machines that think in code. Ideas ship <b>raw, on purpose</b> — half of them never reach a finish line, and that is the point. <b>No roadmap. No pitch. The repos are the pitch.</b></p>
+    <p class="sub rv">I build public prototypes — for coding agents, compilers, odd tools. Some ship. Some die on the bench. Half of them never reach a finish line, and <b>that's the point</b>: the repo tells you exactly where it stands. Open one and take it.</p>
     <div class="chips rv">
       <span class="chip">REPOS <b>19</b></span>
       <span class="chip">SKILLS <b>12</b></span>
@@ -188,7 +188,7 @@ body{padding-bottom:26px}
     </div>
     <div class="cta rv">
       <a class="btn btn-go" href="https://github.com/maxkle1nz">ENTER THE LAB →</a>
-      <a class="btn btn-ghost" href="https://github.com/maxkle1nz/deviance-skills">GET THE SKILLS</a>
+      <a class="btn btn-ghost" href="https://github.com/maxkle1nz/m1nd">START WITH M1ND</a>
     </div>
     <div class="start rv">▶ PRESS START</div>
   </div>
@@ -197,7 +197,7 @@ body{padding-bottom:26px}
 <section class="sec" id="now">
   <div class="wrap">
     <div class="sec-h rv"><span class="no">01</span><h2>NOW PLAYING</h2></div>
-    <p class="sec-sub rv">Live from the repos — real language, real lines, real commits. Auto-sorted by last push; the flame means it moved this week. These cards refresh themselves.</p>
+    <p class="sec-sub rv">Straight from the repos — real language, real lines, real commits. Fresh pushes rise to the top; the flame means it moved this week.</p>
     <div class="cards rv">
       <a href="https://github.com/maxkle1nz/temponizer-paper"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/maxkle1nz/maxkle1nz@main/assets/cards/temponizer-paper.svg" alt="temponizer-paper" /></a>
       <a href="https://github.com/maxkle1nz/synt0ny"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/maxkle1nz/maxkle1nz@main/assets/cards/synt0ny.svg" alt="synt0ny" /></a>
@@ -212,12 +212,12 @@ body{padding-bottom:26px}
 <section class="sec alt" id="lab">
   <div class="wrap">
     <div class="sec-h rv"><span class="no">02</span><h2>THE LAB</h2></div>
-    <p class="sec-sub rv">Papers, loop engines, design compilers, semantic instruments. Every repo opens with an honest status: what works, what doesn't, where it stopped. MIT-licensed and stamped. <b style="color:var(--bone)">Take one and run.</b></p>
+    <p class="sec-sub rv">Papers, loop engines, design compilers, tools that test their own story. Every repo opens with an honest status: what works, what doesn't, where I stopped. MIT, stamped, <b style="color:var(--bone)">yours to fork.</b></p>
     <div class="cards rv" style="grid-template-columns:repeat(3,1fr)">
-      <a href="https://github.com/maxkle1nz/m1nd" class="frame" style="padding:22px 20px"><span class="br1"></span><span class="br2"></span><div class="px" style="font-size:12px;color:var(--bone)">m1nd</div><p style="font-size:12px;color:var(--steel);margin-top:12px;line-height:1.6">Structural truth for coding agents. Rust · MIT · the flagship.</p></a>
-      <a href="https://github.com/maxkle1nz/war-room" class="frame" style="padding:22px 20px"><span class="br1"></span><span class="br2"></span><div class="px" style="font-size:12px;color:var(--bone)">war-room</div><p style="font-size:12px;color:var(--steel);margin-top:12px;line-height:1.6">AI that argues back. Multi-agent decisions with a devil's advocate.</p></a>
+      <a href="https://github.com/maxkle1nz/m1nd" class="frame" style="padding:22px 20px"><span class="br1"></span><span class="br2"></span><div class="px" style="font-size:12px;color:var(--bone)">m1nd</div><p style="font-size:12px;color:var(--steel);margin-top:12px;line-height:1.6">Rust graph memory for coding agents. MIT. Sharp edges included.</p></a>
+      <a href="https://github.com/maxkle1nz/war-room" class="frame" style="padding:22px 20px"><span class="br1"></span><span class="br2"></span><div class="px" style="font-size:12px;color:var(--bone)">war-room</div><p style="font-size:12px;color:var(--steel);margin-top:12px;line-height:1.6">AI that argues back. Multi-agent calls with a built-in devil's advocate.</p></a>
       <a href="https://github.com/maxkle1nz/v1truvio" class="frame" style="padding:22px 20px"><span class="br1"></span><span class="br2"></span><div class="px" style="font-size:12px;color:var(--bone)">v1truvio</div><p style="font-size:12px;color:var(--steel);margin-top:12px;line-height:1.6">Not a design system — the compiler that generates them.</p></a>
-      <a href="https://github.com/maxkle1nz/pathos" class="frame" style="padding:22px 20px"><span class="br1"></span><span class="br2"></span><div class="px" style="font-size:12px;color:var(--bone)">pathos</div><p style="font-size:12px;color:var(--steel);margin-top:12px;line-height:1.6">Continuity protocol for long human+agent sessions.</p></a>
+      <a href="https://github.com/maxkle1nz/pathos" class="frame" style="padding:22px 20px"><span class="br1"></span><span class="br2"></span><div class="px" style="font-size:12px;color:var(--bone)">pathos</div><p style="font-size:12px;color:var(--steel);margin-top:12px;line-height:1.6">Hands a long session's memory to the next one, intact.</p></a>
       <a href="https://github.com/maxkle1nz/thebridge" class="frame" style="padding:22px 20px"><span class="br1"></span><span class="br2"></span><div class="px" style="font-size:12px;color:var(--bone)">thebridge</div><p style="font-size:12px;color:var(--steel);margin-top:12px;line-height:1.6">The AI access you already have, behind one local surface.</p></a>
       <a href="https://github.com/maxkle1nz" class="frame" style="padding:22px 20px;display:flex;align-items:center;justify-content:center"><span class="br1"></span><span class="br2"></span><div class="px" style="font-size:11px;color:var(--gold)">+ ALL REPOS →</div></a>
     </div>
@@ -227,7 +227,7 @@ body{padding-bottom:26px}
 <section class="sec" id="skills">
   <div class="wrap">
     <div class="sec-h rv"><span class="no">03</span><h2>SKILLS PACK</h2></div>
-    <p class="sec-sub rv">Twelve procedures my agents carry — for Claude Code and Codex. They survived daily use; one ships with its own blind A/B evidence. <a href="https://github.com/maxkle1nz/deviance-skills">Get the pack →</a></p>
+    <p class="sec-sub rv">Twelve small procedures I hand my agents — for Claude Code and Codex. Field-used, scarred, easy to steal. One ships with its own blind test to prove it works. <a href="https://github.com/maxkle1nz/deviance-skills">Get the pack →</a></p>
     <div class="banners rv">
       <a href="https://github.com/maxkle1nz/deviance-skills/tree/main/claude/c0ntra"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/maxkle1nz/deviance-skills@main/assets/banners/c0ntra.svg" alt="c0ntra" /></a>
       <a href="https://github.com/maxkle1nz/deviance-skills/tree/main/claude/pr00f"><img loading="lazy" src="https://cdn.jsdelivr.net/gh/maxkle1nz/deviance-skills@main/assets/banners/pr00f.svg" alt="pr00f" /></a>
@@ -243,13 +243,13 @@ body{padding-bottom:26px}
 <section class="sec alt" id="method">
   <div class="wrap">
     <div class="sec-h rv"><span class="no">04</span><h2>HOW A THING GETS REAL</h2></div>
-    <p class="sec-sub rv">Proof-grown. Green without proof is noise.</p>
+    <p class="sec-sub rv">Green without proof is noise.</p>
     <div class="steps rv">
-      <div class="step"><div class="sn">01</div><h5>SEAL</h5><p>Pre-register the gates before any data. Interpretation locked before measurement.</p><span class="ar">→</span></div>
-      <div class="step"><div class="sn">02</div><h5>SPIKE</h5><p>Isolated lab. Contract battery born red. No design theater.</p><span class="ar">→</span></div>
-      <div class="step"><div class="sn">03</div><h5>PROVE</h5><p>Adversarial checks, independent skeptics, a real oracle.</p><span class="ar">→</span></div>
-      <div class="step"><div class="sn">04</div><h5>SHIP RAW</h5><p>Honest status on top: what works, what doesn't, where it stopped.</p><span class="ar">→</span></div>
-      <div class="step"><div class="sn">05</div><h5>HAND OFF</h5><p>MIT. Take one and run. Nobody builds anything alone.</p></div>
+      <div class="step"><div class="sn">01</div><h5>SEAL</h5><p>Write the rules before you see the result. No moving the goalposts.</p><span class="ar">→</span></div>
+      <div class="step"><div class="sn">02</div><h5>SPIKE</h5><p>Isolated bench. Make the test fail first. No theater.</p><span class="ar">→</span></div>
+      <div class="step"><div class="sn">03</div><h5>PROVE</h5><p>Adversarial checks. Independent skeptics. A judge from outside the room.</p><span class="ar">→</span></div>
+      <div class="step"><div class="sn">04</div><h5>SHIP RAW</h5><p>Status first. Demo second. Applause never.</p><span class="ar">→</span></div>
+      <div class="step"><div class="sn">05</div><h5>HAND OFF</h5><p>MIT. Fork it, break it, send it back better.</p></div>
     </div>
   </div>
 </section>
@@ -259,15 +259,15 @@ body{padding-bottom:26px}
     <div class="sec-h rv"><span class="no">05</span><h2>SOUND TEST</h2></div>
     <p class="sec-sub rv">Before agents, consoles.</p>
     <div class="sound">
-      <div class="sc frame rv"><span class="br1"></span><span class="br2"></span><div class="n">27</div><div class="u">YRS AT THE DESK</div><p>Some of those records went platinum. Not the point — the point is compression, headroom, what survives the master.</p></div>
-      <div class="sc frame rv"><span class="br1"></span><span class="br2"></span><div class="n">19</div><div class="u">PUBLIC REPOS</div><p>The lab is open. Auto-sorted by last push; the flame means it moved this week.</p></div>
-      <div class="sc frame rv"><span class="br1"></span><span class="br2"></span><div class="n">12</div><div class="u">SKILLS SHIPPED</div><p>It was systems training all along — <a href="https://cosmophonix.com">the other studio</a>.</p></div>
+      <div class="sc frame rv"><span class="br1"></span><span class="br2"></span><div class="n">27</div><div class="u">YRS ON THE CONSOLE</div><p>Some of those records went platinum. Not the point — the point is what survives the master. Turns out that's systems work too.</p></div>
+      <div class="sc frame rv"><span class="br1"></span><span class="br2"></span><div class="n">19</div><div class="u">PUBLIC REPOS</div><p>The lab is open. Nothing here sits behind a login.</p></div>
+      <div class="sc frame rv"><span class="br1"></span><span class="br2"></span><div class="n">12</div><div class="u">SKILLS SHIPPED</div><p>The method, packaged — straight from <a href="https://cosmophonix.com">the other studio</a>.</p></div>
     </div>
     <div class="refuse rv" style="margin-top:56px">
-      <div class="rrow"><span class="x">✕</span><h6>ROADMAPS</h6><span class="why">the repos are the roadmap</span></div>
-      <div class="rrow"><span class="x">✕</span><h6>PITCH DECKS</h6><span class="why">the code is the pitch</span></div>
-      <div class="rrow"><span class="x">✕</span><h6>POLISH THEATER</h6><span class="why">raw and honest ships faster</span></div>
-      <div class="rrow"><span class="x">✕</span><h6>THE SOLO GENIUS MYTH</h6><span class="why">nobody builds anything alone</span></div>
+      <div class="rrow"><span class="x">✕</span><h6>DECKS WITHOUT CODE</h6><span class="why">talk is cheap, commits aren't</span></div>
+      <div class="rrow"><span class="x">✕</span><h6>ROADMAPS WITHOUT COMMITS</h6><span class="why">a plan is not a build</span></div>
+      <div class="rrow"><span class="x">✕</span><h6>POLISH THAT HIDES THE SEAMS</h6><span class="why">show the bad weld</span></div>
+      <div class="rrow"><span class="x">✕</span><h6>GENIUS COSPLAY</h6><span class="why">nobody builds alone</span></div>
     </div>
   </div>
 </section>
@@ -289,8 +289,8 @@ body{padding-bottom:26px}
 </footer>
 
 <div class="ticker" aria-hidden="true"><div class="tk" id="tk">
-  <span>DEViANCE INTELLIGENCE</span><span class="s">✕</span><span><b>BEYOND THE EDGE</b></span><span class="s">✕</span><span>EST <b>2016</b></span><span class="s">✕</span><span>19 REPOS</span><span class="s">✕</span><span>12 SKILLS</span><span class="s">✕</span><span>THE IMPOSSIBLE IS JUST AN OPINION</span><span class="s">✕</span><span><b>PRESS START</b></span><span class="s">✕</span>
-  <span>DEViANCE INTELLIGENCE</span><span class="s">✕</span><span><b>BEYOND THE EDGE</b></span><span class="s">✕</span><span>EST <b>2016</b></span><span class="s">✕</span><span>19 REPOS</span><span class="s">✕</span><span>12 SKILLS</span><span class="s">✕</span><span>THE IMPOSSIBLE IS JUST AN OPINION</span><span class="s">✕</span><span><b>PRESS START</b></span><span class="s">✕</span>
+  <span>DEViANCE INTELLIGENCE</span><span class="s">✕</span><span><b>BEYOND THE EDGE</b></span><span class="s">✕</span><span>INSERT COIN</span><span class="s">✕</span><span>19 REPOS</span><span class="s">✕</span><span>12 SKILLS</span><span class="s">✕</span><span>FORK THE REPO</span><span class="s">✕</span><span>THE IMPOSSIBLE IS JUST AN OPINION</span><span class="s">✕</span><span><b>PRESS START</b></span><span class="s">✕</span>
+  <span>DEViANCE INTELLIGENCE</span><span class="s">✕</span><span><b>BEYOND THE EDGE</b></span><span class="s">✕</span><span>INSERT COIN</span><span class="s">✕</span><span>19 REPOS</span><span class="s">✕</span><span>12 SKILLS</span><span class="s">✕</span><span>FORK THE REPO</span><span class="s">✕</span><span>THE IMPOSSIBLE IS JUST AN OPINION</span><span class="s">✕</span><span><b>PRESS START</b></span><span class="s">✕</span>
 </div></div>
 
 <script>
