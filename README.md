@@ -24,6 +24,7 @@ npm run lint
 - [`brand/V1TRUVIO-INTEGRATION.md`](brand/V1TRUVIO-INTEGRATION.md) — audited adoption ledger: 8/10 core decisions applied.
 - [`brand/PROFILE-README.md`](brand/PROFILE-README.md) — clean GitHub profile README copy.
 - `public/deviance-signal.png` — original hero campaign image.
+- `public/deviance-recruitment-banner.jpg` — GitHub profile recruitment banner.
 - `public/og.png` — social preview source.
 
 ## Deployment

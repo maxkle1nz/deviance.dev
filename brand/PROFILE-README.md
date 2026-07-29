@@ -1,64 +1,59 @@
 <p align="center">
-  <img src="https://deviance.dev/deviance-prism-icon.png" width="56" alt="DEViance prism mark">
+  <img src="assets/deviance-recruitment-banner.jpg" alt="DEViance Intelligence — Built different? You belong at DEViance.">
 </p>
 
-<h1 align="center">Max Kle1nz</h1>
+# Max Kle1nz
+
+I build the first version that changes the question.
+
+**DEViance Intelligence is a home for the next generation of developers,
+vibecoders, and researchers — people who see what could exist and cannot wait
+for permission to build it.**
+
+If the normal path never fit you, good.
+
+> **If you are built different, you belong at DEViance.**
+
+[Enter DEViance](https://deviance.dev) ·
+[Open the public work](https://github.com/maxkle1nz?tab=repositories) ·
+[Talk to me](mailto:kleinz@cosmophonix.com)
+
+## We are looking for
+
+| Signal | What it looks like |
+|---|---|
+| **Developers** | You see the system and make it survive contact with reality. |
+| **Vibecoders** | You turn intent into momentum before the category has a name. |
+| **Researchers** | You ask the question that changes the map. |
+
+Titles do not matter here. Signal does.
+
+You may be our kind of person if:
+
+- you can turn a strange idea into a working proof;
+- you care more about what survives than what sounds impressive;
+- you move between code, research, design, and instinct;
+- you are generous enough to leave the work stronger for the next builder.
+
+## What we are building
+
+| System | The edge |
+|---|---|
+| [m1nd](https://github.com/maxkle1nz/m1nd) | A neuro-symbolic code graph that gives coding agents structural memory and calibrated trust. |
+| [deviance-skills](https://github.com/maxkle1nz/deviance-skills) | Field-tested operating doctrine for Claude Code and Codex. |
+| [RETROBUILDER](https://github.com/maxkle1nz/RETROBUILDER) | Software archaeology for hidden coupling, ghost edges, and safer refactors. |
+| [v1truvio](https://github.com/maxkle1nz/v1truvio) | A compiler for visual identities with taste, proof, and anti-cliché gates. |
+| [synt0ny](https://github.com/maxkle1nz/synt0ny) | Research into the geometry of meaning without an LLM in the hot path. |
+| [pathos](https://github.com/maxkle1nz/pathos) | Continuity for long human + agent work. |
+
+## The only pitch
+
+Open the repositories. Read the code. Find the signal.
+
+If you see yourself in the work, write to
+**[kleinz@cosmophonix.com](mailto:kleinz@cosmophonix.com)**.
 
 <p align="center">
-  <strong>AI-first prototyper · system thinker · music producer</strong><br>
-  I build the core, prove the concept, and launch it raw.
-</p>
-
-<p align="center">
-  <a href="https://deviance.dev"><strong>DEViance.dev</strong></a> ·
-  <a href="https://github.com/maxkle1nz">public lab</a> ·
-  <a href="mailto:kleinz@cosmophonix.com">contact</a>
-</p>
-
----
-
-## The short version
-
-QuakeWorld opened C for me in 1999. I was 13. Then came technical school, stages, recording consoles, years as an artist in **Hori**, and records that reached the top of the Italian charts.
-
-Music and systems taught me the same thing: connect the parts so the idea survives.
-
-Today I research and build **agentic systems**. I am a prototyper: I make the first version that changes the question, expose the evidence, and hand the work forward.
-
-## DEViance Intelligence
-
-**DEViance is my public proof lab.**
-
-Some systems ship. Some die on the bench. Every repository should say what is
-documented, implemented, locally tested, runtime-proven, unfinished, and still
-dangerous.
-
-I am looking for developers who want to take ownership of unfinished work, continue the research, and build the next generation of human + agent tools.
-
-> The deviation is the method.  
-> Green without proof is noise.  
-> The repos are the pitch.
-
-## Systems
-
-| System | Field | What it disturbs |
-|---|---|---|
-| [m1nd](https://github.com/maxkle1nz/m1nd) | Context infrastructure | Repo maps, memory, structure, and constraints before action. |
-| [deviance-skills](https://github.com/maxkle1nz/deviance-skills) | Operating doctrine | Field-tested procedures for Claude Code and Codex. |
-| [RETROBUILDER](https://github.com/maxkle1nz/RETROBUILDER) | Software archaeology | Hidden coupling, ghost edges, duplicate systems, unsafe refactors. |
-| [v1truvio](https://github.com/maxkle1nz/v1truvio) | Visual compiler | Coherent identity generated from explicit vectors and anti-cliché gates. |
-| [synt0ny](https://github.com/maxkle1nz/synt0ny) | Meaning geometry | Local embeddings examined without an LLM in the hot path. |
-| [pathos](https://github.com/maxkle1nz/pathos) | Session continuity | Long human + agent work that survives the context window. |
-
-## Logic gates
-
-`Assembly` · `C` · `C++` · `Rust` · `Python` · `JavaScript` · `Electron` · `Vite`  
-`Agentic infrastructure` · `API discovery` · `scraping heavy` · `system thinking`
-
-## Continue?
-
-Open a public issue, fork what you want, or write to **kleinz@cosmophonix.com**.
-
-<p align="center">
-  <a href="https://deviance.dev"><strong>INTELLIGENCE BEYOND THE EDGE.</strong></a>
+  <strong>BUILT DIFFERENT? GOOD.</strong><br>
+  <a href="https://deviance.dev">YOU BELONG AT DEVIANCE.</a>
 </p>

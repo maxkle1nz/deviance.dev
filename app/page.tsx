@@ -100,11 +100,11 @@ const repositories = [
 ];
 
 const proofMarks = [
-  ["01", "SEAL", "Write the rule before seeing the result."],
-  ["02", "SPIKE", "Build the smallest impossible proof."],
-  ["03", "PROVE", "Invite the skeptic. Keep the receipts."],
-  ["04", "SHIP RAW", "Status first. Evidence second."],
-  ["05", "HAND OFF", "Leave enough truth for the next builder."],
+  ["01", "FIND SIGNAL", "See what everyone else is still too early to see."],
+  ["02", "MAKE IT REAL", "Turn instinct into the smallest working proof."],
+  ["03", "BREAK IT", "Put the idea under enough pressure to deserve belief."],
+  ["04", "SHIP RAW", "Let the work speak before the polish."],
+  ["05", "FIND THE NEXT", "Hand it to someone who can take it past you."],
 ];
 
 function Wordmark() {
@@ -166,23 +166,25 @@ export default function Home() {
           </aside>
 
           <div className="hero-copy">
-            <p className="kicker">DEViance Intelligence / Est. 2016</p>
+            <p className="kicker">DEViance Intelligence / A HOME FOR THE OUTLIERS</p>
             <h1>
-              THE DEVIATION
+              BUILT
               <br />
-              <span>IS THE METHOD.</span>
+              <span>DIFFERENT?</span>
+              <br />
+              GOOD.
             </h1>
             <p className="hero-statement">
-              I build the core, prove it under pressure, and launch it raw.
-              Public systems for agents, compilers, and people working beyond
-              the default.
+              DEViance is looking for the next generation of developers,
+              vibecoders, and researchers. If the normal path never fit you,
+              this is where you belong.
             </p>
             <div className="hero-actions">
               <a className="action action--primary" href="#proof">
-                Read the evidence <span>↘</span>
+                See the work <span>↘</span>
               </a>
-              <a className="action action--quiet" href="https://github.com/maxkle1nz">
-                GitHub profile <span>↗</span>
+              <a className="action action--quiet" href="#contact">
+                Come build with us <span>↗</span>
               </a>
             </div>
           </div>
@@ -193,34 +195,34 @@ export default function Home() {
         <section className="position position--opening" id="position">
           <div className="section-tag">
             <span>00</span>
-            <span>POSITION / NOT A PITCH</span>
+            <span>POSITION / THE ENTRY REQUIREMENT</span>
           </div>
           <div className="position-grid">
             <h2>
-              NOT A STUDIO.
+              THE FUTURE
               <br />
-              <span>A TEST SITE FOR</span>
+              BELONGS TO
               <br />
-              THE NEXT
+              <span>THE MISFITS</span>
               <br />
-              OPERATING MODEL.
+              WHO CAN BUILD IT.
             </h2>
             <div className="position-copy">
               <p className="position-lead">
-                I make the first version that proves an idea deserves to exist.
+                We do not care what your title is. We care what you can make
+                real.
               </p>
               <p>
-                QuakeWorld opened C for me in 1999. Music later taught me
-                compression, headroom, and what survives the master. Today I
-                apply the same discipline to human + agent systems.
+                DEViance is a home for people who move between code, research,
+                design, and instinct without asking permission.
               </p>
               <p>
-                Some systems ship. Some die on the bench. Every public repo
-                should make the difference visible.
+                You bring the strange idea. We bring the pressure, the proof,
+                and the people capable of carrying it further.
               </p>
               <div className="evidence-note">
-                <strong>THE REPOS ARE THE PITCH.</strong>
-                <span>NO DECK REQUIRED.</span>
+                <strong>DIFFERENT IS NOT A BRAND POSITION.</strong>
+                <span>IT IS THE ENTRY REQUIREMENT.</span>
               </div>
             </div>
           </div>
@@ -246,11 +248,11 @@ export default function Home() {
               </dl>
             </aside>
             <div className="proof-heading">
-              <p className="kicker kicker--blue">01 / SELECTED PUBLIC WORK</p>
-              <h2>WORK THAT CAN ARGUE BACK.</h2>
+              <p className="kicker kicker--blue">01 / THE WORK IS OPEN</p>
+              <h2>THIS IS WHAT WE BUILD.</h2>
               <p>
-                Six public lines of inquiry. The evidence and destination are
-                part of every object; provenance is never hidden behind a card.
+                No polished case studies. Open the repos. Read the code. Find
+                the signal.
               </p>
             </div>
           </div>
@@ -311,17 +313,17 @@ export default function Home() {
         <section className="method" id="method">
           <div className="section-tag section-tag--dark">
             <span>02</span>
-            <span>METHOD / FIVE PRESSURE MARKS</span>
+            <span>METHOD / HOW INSTINCT BECOMES REAL</span>
           </div>
           <div className="method-heading">
             <h2>
-              GREEN WITHOUT
+              WE DO NOT WAIT
               <br />
-              <span>PROOF</span> IS NOISE.
+              TO BE <span>QUALIFIED.</span>
             </h2>
             <p>
-              An operating sequence, not a decorative timeline. Each mark
-              advances only when the previous one leaves evidence.
+              We find the signal, make it real, break it, ship it, and hand it
+              to the next dangerous mind.
             </p>
           </div>
           <ol className="proof-ruler">
@@ -338,56 +340,56 @@ export default function Home() {
         <section className="principles">
           <div className="section-tag">
             <span>03</span>
-            <span>THREE CONDITIONS / WHAT SURVIVES</span>
+            <span>WHO BELONGS HERE / THREE KINDS OF SIGNAL</span>
           </div>
           <div className="principle-grid">
             <article>
-              <span>01 / SIGNAL</span>
-              <h3>THE IDEA MUST SURVIVE THE MACHINE.</h3>
+              <span>01 / DEVELOPERS</span>
+              <h3>YOU SEE THE SYSTEM.</h3>
               <p>
-                The medium changes. The test does not: connect the parts until
-                the idea survives compression.
+                You turn complex ideas into infrastructure people can actually
+                use — and you care whether it survives.
               </p>
             </article>
             <article>
-              <span>02 / PROOF</span>
-              <h3>A CLAIM WITHOUT A RECEIPT IS NOISE.</h3>
+              <span>02 / VIBECODERS</span>
+              <h3>YOU TURN INTENT INTO MOMENTUM.</h3>
               <p>
-                Documented, implemented, tested, runtime-proven, unproven, and
-                blocked are different states.
+                You move at the speed of taste. You can feel the product before
+                the category has learned its name.
               </p>
             </article>
             <article>
-              <span>03 / EDGE</span>
-              <h3>THE IMPOSSIBLE IS JUST AN OPINION.</h3>
+              <span>03 / RESEARCHERS</span>
+              <h3>YOU ASK THE QUESTION THAT CHANGES THE MAP.</h3>
               <p>
-                Build the first version that changes the question. Then hand it
-                to someone capable of carrying it further.
+                You do not decorate certainty. You go where the evidence is
+                strange, incomplete, and worth following.
               </p>
             </article>
           </div>
         </section>
 
         <section className="contact" id="contact">
-          <p className="kicker">OPEN HANDOFF / BUILDERS WANTED</p>
+          <p className="kicker">DEViance IS RECRUITING</p>
           <h2>
-            I BUILD THE FIRST
+            IF YOU ARE BUILT
             <br />
-            IMPOSSIBLE VERSION.
+            <span>DIFFERENT,</span>
             <br />
-            <span>YOU MAKE IT SURVIVE.</span>
+            YOU BELONG HERE.
           </h2>
           <p>
-            DEViance moves at research speed. If you want to take ownership of
-            unfinished systems and continue the work, open the source or write
-            directly.
+            We are looking for the next generation of developers, vibecoders,
+            and researchers. Show us the impossible thing you made real — or
+            the question you cannot stop following.
           </p>
           <div className="contact-actions">
             <a href="mailto:kleinz@cosmophonix.com">
-              kleinz@cosmophonix.com <span>↗</span>
+              Show us what you built <span>↗</span>
             </a>
             <a href="https://github.com/maxkle1nz">
-              Enter the public lab <span>↗</span>
+              Enter the GitHub lab <span>↗</span>
             </a>
           </div>
         </section>

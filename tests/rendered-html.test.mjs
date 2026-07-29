@@ -4,10 +4,11 @@ import { readFile } from "node:fs/promises";
 
 test("production page preserves DEViance identity, proof and primary actions", async () => {
   const page = await readFile("app/page.tsx", "utf8");
-  assert.match(page, /THE DEVIATION/);
-  assert.match(page, /WORK THAT CAN ARGUE BACK/);
-  assert.match(page, /GREEN WITHOUT/);
-  assert.match(page, /I BUILD THE FIRST/);
+  assert.match(page, /BUILT/);
+  assert.match(page, /THIS IS WHAT WE BUILD/);
+  assert.match(page, /WE DO NOT WAIT/);
+  assert.match(page, /YOU BELONG HERE/);
+  assert.match(page, /VIBECODERS/);
   assert.match(page, /SNAPSHOT \/ NOT LIVE/);
   assert.match(page, /CAPTURED_AT/);
   assert.match(page, /m1nd/);

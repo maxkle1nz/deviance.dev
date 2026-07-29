@@ -5,25 +5,25 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://deviance.dev";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "DEViance Intelligence — The deviation is the method",
+  title: "DEViance Intelligence — Built different?",
   description:
-    "Max Kle1nz's public laboratory for agentic systems, visual compilers, operational doctrine, and software that proves what it claims.",
+    "A home for the next generation of developers, vibecoders, and researchers. If you are built different, you belong at DEViance.",
   alternates: { canonical: "/" },
   openGraph: {
-    title: "DEViance Intelligence — The deviation is the method",
+    title: "DEViance Intelligence — Built different?",
     description:
-      "I build the core, prove it under pressure, and launch it raw. The repos are the pitch.",
+      "We are looking for the next generation of developers, vibecoders, and researchers. You belong at DEViance.",
     url: "/",
     siteName: "DEViance.dev",
-    images: [{ url: "/og.png", width: 1672, height: 941 }],
+    images: [{ url: "/deviance-recruitment-banner.jpg", width: 1672, height: 941 }],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "DEViance Intelligence — The deviation is the method",
+    title: "DEViance Intelligence — Built different?",
     description:
-      "Public prototypes for the next operating model of human + machine. Evidence included.",
-    images: ["/og.png"],
+      "A home for developers, vibecoders, and researchers made different.",
+    images: ["/deviance-recruitment-banner.jpg"],
   },
   icons: { icon: "/deviance-prism-icon.png" },
 };
