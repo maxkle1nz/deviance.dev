@@ -1,25 +1,34 @@
 # deviance.dev
 
-The DEViance Intelligence site. Static, single page, no build.
+The public interface for **DEViance Intelligence** — an independent laboratory for agentic systems, public prototypes, and software that proves what it claims.
 
-Live at https://maxkle1nz.github.io/deviance.dev/ — and at https://deviance.dev once DNS points here.
+> The deviation is the method.
 
-## DNS (Porkbun → GitHub Pages)
-
-In Porkbun DNS for `deviance.dev`, add:
-
-| Type  | Host | Answer |
-|-------|------|--------|
-| A     | (blank) | 185.199.108.153 |
-| A     | (blank) | 185.199.109.153 |
-| A     | (blank) | 185.199.110.153 |
-| A     | (blank) | 185.199.111.153 |
-| CNAME | www  | maxkle1nz.github.io |
-
-Delete the parking ALIAS/CNAME records Porkbun ships by default. Then enable the
-custom domain on this repo (Settings → Pages → Custom domain → `deviance.dev`,
-enforce HTTPS) or run:
+## Run locally
 
 ```bash
-gh api -X PUT repos/maxkle1nz/deviance.dev/pages --input - <<< '{"cname":"deviance.dev","https_enforced":true}'
+npm install
+npm run dev
 ```
+
+## Verify
+
+```bash
+npm test
+npm run lint
+```
+
+## Brand assets
+
+- [`brand/DEVIANCE-VISUAL-SYSTEM.md`](brand/DEVIANCE-VISUAL-SYSTEM.md) — logo, color, composition, image, motion, and voice rules.
+- [`brand/V1TRUVIO-INTEGRATION.md`](brand/V1TRUVIO-INTEGRATION.md) — audited adoption ledger: 8/10 core decisions applied.
+- [`brand/PROFILE-README.md`](brand/PROFILE-README.md) — clean GitHub profile README copy.
+- `public/deviance-signal.png` — original hero campaign image.
+- `public/deviance-recruitment-banner.jpg` — GitHub profile recruitment banner.
+- `public/og.png` — social preview source.
+
+## Deployment
+
+The current domain target is `deviance.dev`. The site can be published through
+OpenAI Sites now; the custom domain still requires its DNS to point at the
+chosen production host.
