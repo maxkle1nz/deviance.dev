@@ -25,7 +25,7 @@ export const metadata: Metadata = {
       "A home for developers, vibecoders, and researchers made different.",
     images: ["/deviance-recruitment-banner.jpg"],
   },
-  icons: { icon: "/deviance-wordmark-avatar.png" },
+  icons: { icon: "/deviance-prism-icon.png" },
 };
 
 export default function RootLayout({
