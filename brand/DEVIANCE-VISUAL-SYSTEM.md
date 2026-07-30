@@ -14,7 +14,9 @@ Primary lockup: **DEV`i`ANCE.DEV**
 - The lowercase italic `i` is the only signal-colored character.
 - A diagonal slash crosses the `i`: deviation exists inside the name, not beside it.
 - `.DEV` is microtype, aligned to the baseline.
-- Use the existing prism/trident mark only as the compact avatar or favicon. The wordmark owns all editorial surfaces.
+- The wordmark owns every public surface, including the square safe-area avatar
+  and favicon treatment. The prism/trident is legacy material, not the DEViance
+  signature.
 
 Minimum clear space: the height of the capital `D`.
 
